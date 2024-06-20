@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&effect=neon|shadow-multiple');
+
+body{
+  font-family: 'Poppins', Franklin Gothic, sans-serif;
+  line-height: 1.6;
+  background-image: url('backgroundm.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+   margin: 0;
+  position: relative;
+  
+}
+
+.text-color {
+	color: #FAF9F6;
+}
+
+
+.movie-info {
+  position: absolute; /* Position it absolutely */
+  top: 180px; /* Distance from the top */
+  right: 100px; /* Distance from the right */
+  left: 350px;
+  justify-content: flex-end; /* Align items to the right */
+  align-items: flex-start;
+  max-width: fit-content;
+  margin-left: 80px;
+  display: flex;	
+}
+
+.box {
+            flex: 1; /* Each box will take up equal space */
+            padding: 10px;
+            
+            box-sizing: border-box;
+            
+        }
+.REGION{
+	margin-left:50px;
+	margin-right:5px;
+}
+
+ .poster {
+      position: absolute;
+      left: 20px;
+      border: 2px solid #ddd;
+      padding: 0; /* Ensure no padding within the .poster div */
+      margin: 0; /* Ensure no margin within the .poster div */
+ }
+ 
+.poster img {
+      display: block; /* Prevent any inline spacing */
+      width: 100%; /* Make the image take the full width of the container */
+      height: auto; /* Maintain the aspect ratio */
+      margin: 0; /* Remove default margin */
+      padding: 0; /* Remove default padding */
+      border: none; /* Ensure no border is added to the image */
+}
+
+
+
+
+
+.navbar{
+	background-color: transparent;
+	padding : 0.5px 10px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+
+.header {
+            display: flex;
+            justify-content: space-between; 
+            align-items: center; 
+            padding: 10px;
+            
+        }
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.search-box {
+    width: 250px;
+    padding: 8px;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    font-size: 12px;
+    outline: none;
+    transition: border-color 0.3s, transform 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    position: relative;
+}
+
+.search-box:focus {
+    border-color: 	#E50914;
+    transform: scale(1.02);
+}
+
+.search-button {
+    padding: 10px 20px;
+    margin-left: 2px;
+    border: none;
+    border-radius: 20px;
+    background-color: 	#E50914;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-button:hover {
+    background-color: 	#E50914;
+    transform: scale(1.05);
+}
+
+.search-button:focus {
+    outline: none;
+}
+
+/* .imdb-logo {
+  font: 20px/1 Impact, HelveticaNeue-CondensedBold, sans-serif; 
+  color: #000;
+  text-shadow: 0 0 0.15em #fff;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: bottom;
+  padding: 1.5px 2.1px;
+  border-radius: 0.9px;
+  background: radial-gradient(#ffffb8, #ce981d);
+  
+}
+
+ */
+ 
+  .chandu {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+            margin: 0;
+        }
+        .error-container {
+            text-align: center;
+            padding: 20px;
+            border: 2px solid #dc3545;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .error-container h1 {
+            color: #dc3545;
+        }
+        .error-container p {
+            color: #333333;
+        }
+
