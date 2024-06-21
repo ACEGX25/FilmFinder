@@ -52,6 +52,10 @@ The site lets the user enter a movie to fetch stats like:
 ## Screenshots
 
 
+![Screenshot 2024-06-20 125324](https://github.com/ACEGX25/FilmFinder-Using-Java/assets/143728245/764c49e6-25fc-451b-b01e-d42cd98b9659)
+![Screenshot 2024-06-20 125342](https://github.com/ACEGX25/FilmFinder-Using-Java/assets/143728245/b5140d53-9dcb-4243-9ff7-d857b711258b)
+![Screenshot 2024-06-20 125358](https://github.com/ACEGX25/FilmFinder-Using-Java/assets/143728245/4e7f2d90-fc27-4ba6-98df-3da4092ae506)
+![Screenshot 2024-06-20 125416](https://github.com/ACEGX25/FilmFinder-Using-Java/assets/143728245/ef6fce1b-5505-453d-8259-4658bd537370)
 
 
 
